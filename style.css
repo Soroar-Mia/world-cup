@@ -1,0 +1,258 @@
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+section{
+    margin: 80px;
+}
+.banner{
+    background-color: black;
+    color: aliceblue;
+    border-radius: 20px;
+}
+.banner-div{
+    display: flex;
+
+}
+.banner-text{
+    width: 50%;
+
+}
+.banner-text-min{
+margin-top: 50px;
+margin-left: 30px;
+margin-right: 5px;
+padding: 20px;
+    
+
+}
+.banner-h1{
+    font-size: 55px;
+}
+.banner-img{
+    width: 50%;
+}
+.anchor-button{
+    text-decoration: none;
+    background: linear-gradient(45deg, rgb(227, 76, 16), rgb(174, 29, 4));
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+}
+.banner-imge{
+    width: 100%;
+    margin-top: 30px;
+}
+
+
+
+
+
+.main-div{
+    display: flex;
+}
+.card-div{
+    flex-direction: column-reverse;
+    display: grid;
+    grid-template-columns:repeat(3, 1fr);
+    gap: 10px;
+}
+.card{
+   margin: 5px;
+   padding: 5px;
+   border: 1px solid rgb(248, 246, 246);
+   border-radius: 10px;
+}
+.imge{
+    width: 100%;
+}
+.nav-div{
+    width: 20%;
+}
+.navbar{
+    background-color: black;
+    width: 200px;
+    height: 250px;
+    border-radius: 5px;
+    display: block;
+}
+
+.nav-btn{
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    padding: 5px;
+    margin: 60px 10px;
+    border-radius: 5px;
+    font-weight: 700;
+    text-align: center;
+}
+.icon{
+    text-decoration: none; 
+    font-size: 20px;
+    color: black;
+    padding: 5px;
+    margin: 5px;
+
+}
+
+
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+.footer-button{
+    text-decoration: none;
+    margin: 20px;
+    color: white;
+}
+.anchor{
+    text-decoration: none;
+    margin: 30px;
+    color: white;
+    font-size: 30px;    
+}
+.footer-text{
+    display: flex;
+    justify-content: center;
+}
+.goal{
+   padding-top: 20px;
+}
+
+.hedan{
+    text-align: center;
+    padding-top: 10px;
+    display: none;
+}
+.flag{
+    display: flex;
+}
+.flag-div{
+    padding: 10px 2px;
+}
+
+
+
+
+
+
+
+@media (max-width:576px){
+
+    .banner-div{
+        display: block;
+    }
+    .banner-text-min{
+        margin: 20px;
+        padding: 20px;
+            
+        
+    }
+    .banner-text{
+        width: 100%;
+        
+    }
+    .banner-img{
+        width: 100%;
+        
+    }
+    .banner-h1{
+        font-size: 45px;
+    }
+    .card-div{
+
+        grid-template-columns:repeat(1, 1fr);
+    
+    }
+    .main-div{
+        display: block;
+    }
+    .nav-div{
+        width: 100%;
+    }
+
+    .navbar{
+        background-color: white;
+        width:100%;
+        display: block;
+        height: auto;
+        text-align: center;
+    }
+
+    .nav-btn{
+        text-decoration: none;
+        padding: 5px;
+        margin: 20px;
+        border-radius: 5px;
+        color: black;
+        font-weight: 700;
+        border: 1px solid black;
+    }
+    .footer-text{
+        display: block;
+        justify-content: center;
+    }
+    .nav-p{
+        margin-top: 20px;
+        padding-top: 20px;
+    }
+
+}
+
+@media screen and (min-width:577px) and (max-width:800px) {
+    .banner-h1{
+        font-size: 35px;
+    }
+    .banner-text-min{
+    margin-left: 10px;
+    padding-left: 10px;
+    margin-top: 1px;
+            
+        
+    }
+    .banner-imge{
+        margin-top: 50px;
+    }
+    .card-div{
+
+        grid-template-columns:repeat(2, 1fr);
+    
+    }
+    .main-div{
+        display: block;
+    }
+    .nav-div{
+        width: 100%;
+    }
+    .navbar{
+        background-color: white;
+        width:100%;
+        display: flex;
+        justify-content: center;
+        height: auto;
+        text-align: center;
+    }
+    .nav-btn{
+        text-decoration: none;
+        padding: 5px;
+        margin: 20px;
+        border-radius: 5px;
+        color: black;
+        font-weight: 700;
+        border: 1px solid black;
+    }
+    .hedan{
+        text-align: center;
+        padding-top: 10px;
+        display: block;
+    }
+    .footer-button{
+        text-decoration: none;
+        margin: 5px;
+        color: white;
+    }
+}
